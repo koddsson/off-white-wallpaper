@@ -6,9 +6,7 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "build": "rollup -c rollup.config.js && npm run build:css",
-    "build:css": "postcss src/css/index.css -o dist/index.css",
-    "build:js:prod": "esbuild src/js/index.ts --minify --bundle --format=esm --outfile=dist/index.js",
+    "build": "rollup -c rollup.config.js",
     "lint": "eslint src/js/**/*",
     "start": "web-dev-server",
     "test": "web-test-runner"
@@ -43,6 +41,7 @@
     "postcss-import": "^15.0.0",
     "postcss-jit-props": "^1.0.7",
     "prettier": "^2.7.1",
-    "rollup-plugin-esbuild": "^5.0.0"
+    "rollup-plugin-esbuild": "^5.0.0",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
