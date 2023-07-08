@@ -1,4 +1,8 @@
-const texts = new URLSearchParams(window.location.search).getAll('text')
+const parameters = new URLSearchParams(window.location.search)
+
+const texts = parameters.getAll('text')
+const background = parameters.get('background')
+const foreground = parameters.get('foreground')
 
 let text = 'Inspirational Quote'
 
@@ -10,5 +14,8 @@ const h1 = document.querySelector<HTMLElement>('h1')
 if (h1) {
   h1.textContent = `"${text}"`
 }
+
+document.documentElement.style.setProperty('--background', background)
+document.documentElement.style.setProperty('--foreground', foreground)
 
 export {}
