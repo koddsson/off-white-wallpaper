@@ -1,5 +1,4 @@
-const params = new URLSearchParams(window.location.search)
-const texts = params.getAll('text')
+const texts = new URLSearchParams(window.location.search).getAll('text')
 
 let text = 'Inspirational Quote'
 
