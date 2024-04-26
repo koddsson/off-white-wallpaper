@@ -33,7 +33,7 @@
     "@web/rollup-plugin-html": "^2.3.0",
     "@web/test-runner": "^0.18.1",
     "cssnano": "^6.1.2",
-    "eslint": "^8.57.0",
+    "eslint": "^9.1.1",
     "eslint-plugin-prettier": "^5.0.1",
     "open-props": "^1.7.3",
     "postcss": "^8.4.38",
