@@ -9,7 +9,7 @@
     "build": "rollup -c rollup.config.js",
     "lint": "eslint src/js/**",
     "start": "web-dev-server",
-    "test": "web-test-runner"
+    "test": "npm run lint && web-test-runner"
   },
   "repository": {
     "type": "git",
