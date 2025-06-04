@@ -9,7 +9,7 @@
     "build": "rollup -c rollup.config.js",
     "lint": "eslint src/js/**",
     "start": "web-dev-server",
-    "test": "web-test-runner"
+    "test": "npm run lint && web-test-runner"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "prettier": "@koddsson/prettier-config",
   "homepage": "https://github.com/koddsson/web-dev#readme",
   "devDependencies": {
-    "@koddsson/eslint-config": "^0.1.2",
+    "@koddsson/eslint-config": "^2.0.0",
     "@koddsson/prettier-config": "^2.0.0",
     "@open-wc/testing": "^4.0.0",
     "@rollup/plugin-node-resolve": "^16.0.0",
