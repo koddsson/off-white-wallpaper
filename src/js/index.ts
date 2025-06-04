@@ -1,4 +1,4 @@
-const parameters = new URLSearchParams(window.location.search);
+const parameters = new URLSearchParams(globalThis.location.search);
 
 const texts = parameters.getAll('text');
 const background = parameters.get('background');
