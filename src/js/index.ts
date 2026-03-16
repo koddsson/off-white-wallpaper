@@ -17,5 +17,3 @@ if (h1) {
 
 document.documentElement.style.setProperty('--background', background);
 document.documentElement.style.setProperty('--foreground', foreground);
-
-export {};
