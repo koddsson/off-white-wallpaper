@@ -24,6 +24,7 @@
   "prettier": "@koddsson/prettier-config",
   "homepage": "https://github.com/koddsson/web-dev#readme",
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "@koddsson/eslint-config": "^4.0.2",
     "@koddsson/prettier-config": "^2.0.0",
     "@open-wc/testing": "^4.0.0",
