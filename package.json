@@ -33,7 +33,7 @@
     "@web/dev-server-esbuild": "^2.0.0",
     "@web/rollup-plugin-html": "^4.0.0",
     "@web/test-runner": "^1.0.0",
-    "cssnano": "^8.0.1",
+    "cssnano": "^9.0.1",
     "eslint": "^10.0.3",
     "eslint-plugin-prettier": "^5.2.1",
     "open-props": "^1.7.8",
